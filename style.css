@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+
 *,
 *::after,
 *::before {
@@ -7,6 +9,7 @@
 body {
   background-color: rgb(40, 0, 53);
   color: rgb(235, 235, 235);
+  font-family: "Architects Daughter", cursive;
 }
 
 #app {
@@ -22,7 +25,7 @@ body {
 
 .radioButtons {
   display: grid;
-  grid-template-columns: 1fr 5fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 .button {

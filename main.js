@@ -4,9 +4,11 @@ import { createFormComponent } from "./lib/formComponent.js";
 const appPage = document.querySelector("#app");
 
 const titleComponent = createTitleComponent();
-const formComponent = createFormComponent(function (name) {
-  alert(`Hi ${name}, here is Your drink.`);
-});
+const formComponent = createFormComponent(popup);
+
+function popup(name, drink) {
+  alert(`Hi ${name}, here is your ${drink}. Enjoy!`);
+}
 
 appPage.append(titleComponent);
 appPage.append(formComponent);
