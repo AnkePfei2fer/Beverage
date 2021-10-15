@@ -6,6 +6,7 @@
 
 body {
   background-color: rgb(40, 0, 53);
+  color: rgb(235, 235, 235);
 }
 
 #app {
@@ -14,14 +15,14 @@ body {
   place-items: center;
 }
 
-.title {
-  color: rgb(235, 235, 235);
-}
-
 .form {
   display: grid;
-  grid-template-columns: 1fr 1fr;
   gap: 2rem;
+}
+
+.radioButtons {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
 }
 
 .button {
